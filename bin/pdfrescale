@@ -51,7 +51,7 @@ This manual was written for pdfrescale version 0.1.
 
 =head1 SEE ALSO
 
-Acme::PDF::rescale
+L<Acme::PDF::rescale>
 
 =cut
 

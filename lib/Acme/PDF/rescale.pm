@@ -16,7 +16,7 @@ Acme::PDF::rescale - A stupid module just to get trained with CPAN.
 
 I just wrote this module to learn how to upload something on CPAN.
 
-Anyway, you may find the pdfrescale script useful. It is installed
+Anyway, you may find the L<pdfrescale> script useful. It is installed
 with the module. It has its own documentation. It allows to rescale a
 pdf file, using a dirty trick : it creates a LaTeX file and calls
 pdflatex (uses the pdfpages package). 
@@ -45,7 +45,7 @@ require Exporter;
 @ISA       = qw(Exporter);
 @EXPORT_OK = qw(base_name make_tex_file compile_tex_file clean_tex_files);
 %EXPORT_TAGS = ('all' => \@EXPORT_OK);
-$VERSION   = '0.1';
+$VERSION   = '0.2';
 
 sub base_name
 {
